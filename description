@@ -1,3 +1,11 @@
-A traditional Neural Network implemented in R. Attempt to imitate an Object-Oriented programming approach (modular functionality) using simple lists only - thereby missing out on any type checking. 
+List based
+A traditional Neural Network implemented in R. Attempt to imitate an Object-Oriented programming approach (modular functionality) using simple lists only - thereby missing out on any type checking. So far, successfully works on both logical gates as well MNIST imge number classification.
 
-So far, successfully works on both logical gates as well MNIST imge number classification.
+S3-based
+A traditional Neural network implemented in R. Object-oriented implementation approach using S3 classes, pass-by-reference using local environments. Unfinished, backpropagation and SGD still missing. But initial test show expected functionality.
+
+
+Observations:
+Programming R in OO is a pain. The entire implementation of OO in R is a mess. S3 vs S4 vs RC vs R6. Pass-by-reference syntax is an even bigger mess if you don't want to rely on external packages. I don't even want to get started on inheritance.
+
+Verdict: I will have to do more Python for projects that require OO. But coming from Java, Python is not very pleasant.
