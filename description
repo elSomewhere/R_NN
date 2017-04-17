@@ -1,0 +1,3 @@
+A traditional Neural Network implemented in R. Attempt to imitate an Object-Oriented programming approach (modular functionality) using simple lists only - thereby missing out on any type checking. 
+
+So far, successfully works on both logical gates as well MNIST imge number classification.
